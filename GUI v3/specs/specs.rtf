@@ -1,0 +1,247 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf230
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14200\viewh13420\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 \
+\
+\
+A /   ICON AND LOGO\
+_______________________________________\
+--------------------------------------------------------------------\
+\
+\
+First, we need an icon and a logo for Yasound.\
+\
+We are not entirely satisfied with the ones we have : we think it's a bit 
+\f1\fs26 tasteless
+\f0\fs24 , and we need something more "iPhone-like", more in the "pixel art" spirit we saw on your web page. That includes the "Yasound" logo as well.\
+\
+the icon must come in several sizes, as it's required by Apple's constraints : \
+\
+* main icon for the app\
+- 57 x 57 \
+- 114 x 114\
+- 72 x 72\
+\
+* icon for iTunes Store : can be slightly different from the main icon if it's necessary (the 29x29 version may require a simplification, for instance)\
+- 50 x 50\
+- 29 x 29\
+- 58 x 58\
+\
+* artwork for iTunes : same, can be slightly different (but not necessarily), as it allows more graphic details\
+- 512 x 512\
+\
+You may know that already, but to be sure : all icon files must not contain any "glow" effect and any rounded corners. Those are automatically applied by the iPhone system.  \
+All graphic assets must go in PNG format, anyway. \
+\
+For now, we need the logo in two sizes : \
+- width 180 pixels and\
+- width 360 pixels\
+\
+But other sizes may be required later, so the simplest way to go is probably to have a vectorial file (Illustrator or Photoshop).\
+\
+\
+\
+\
+B /     GRAPHIC DRESSING OVERVIEW\
+_______________________________________\
+--------------------------------------------------------------------\
+\
+*** We have 3 kind of screens : \
+\
+1 - the creation wizard : it welcomes the user, and drives him through the whole process, until its product is full initialized. It's a simple serie of screens, with yes/no choices, or with a list of customizable functionalities. \
+\
+2 - the menu : a simple screen, containing a list of choices, from which we can access the other screens\
+      -> access to configuration screens, that should look like the creation wizard screens\
+      -> access to the Wall\
+\
+3 - the Wall : the main screen of the app. There are a lot of information to display, and the main purpose is to communicate with the other users, like the Facebook's Wall does, for instance. It means that the graphic look of this screen should be "nice", but should not overload the legibility. \
+\
+*** We have made a test for the Wall (have a look to the screenshots, file '9 - Radio Wall 1.png' for instance), using a paper texture as a background. \
+Should we, or not, keep this paper texture idea for the new look? \
+I think it's better to let you decide : the user will have to go back and forth from the Wall to other screens all the time, so one thing we have to think about is to keep the whole graphic scenario "homogeneous". If we use a texture here, we should probably have it also on the other screens, even if it's a bit modified. \
+\
+*** In case you go for a background texture, it should be a tiled texture, that can be repeated : it will scroll with the text. \
+\
+*** All screens will have a toolbar, like on most of the current screenshots. It's currently a black toolbar, but depending on the look you're going to design, it can be changed. It can have a different color, and it can have a texture (or not\'85.).\
+\
+\
+\
+\
+C /     GRAPHIC DRESSING DETAILS\
+_______________________________________\
+--------------------------------------------------------------------\
+\
+All graphic assets must be provided in two versions : \
+- one for the classic iPhone screen, which is 320 x 480 pixels.\
+- one for the retina iPhone screen, which is 640 x 960 pixels.\
+\
+We will have to think about the iPad version soon, but it's not our first priority, since we have a very short time for the iPhone version to be released. \
+\
+The files are usually named this way :\
+- classic iPhone : "myGraphicAsset.png"\
+- retina iPhone : "myGraphicAsset@2x.png"\
+\
+All files are 24bits PNG, with transparency when it's necessary.\
+\
+Now, referring to the screenshots we sent you:\
+\
+screenshot '1 - connect with Facebook.png'\
+---------------------------------------------------------\
+\
+- the Facebook button must not contain any text, except - maybe - the "F" logo. \
+The text is localized and added in the software. \
+\
+recommended size is:\
+- iPhone classic : 306 x 46\
+- iPhone retina : 612 x 92\
+\
+This size is not mandatory, but it should be as large as possible, to prevent any localized text to go outside the bounds. \
+\
+\
+screenshot '3 - intro screen.png'\
+---------------------------------------------------------\
+\
+It's the welcome screen. It allows the user to go through the creation wizard, or simply skip it. \
+This screen should probably have a richer look than the other ones.\
+The buttons should have a specific design, since the standard white look is not very sexy.\
+Large size for the buttons is recommended (localized text to be added)\
+\
+\
+screenshot '4 - Radio parameters.png'\
+---------------------------------------------------------\
+\
+We're going to keep the white standard cells. But they can have a background color, if it helps. \
+the main job here is to have a nice background that get this screen a better look. This background should be the same for all "wizard" screen.\
+\
+\
+screenshot '5 - Add a tag.png'\
+---------------------------------------------------------\
+\
+the first cell have a small graphic on the right side. \
+The text translation is " Add a tag", so the small graphic  should be a "plus" icon.\
+As always, two sizes : one for classic iPhone, another for retina.\
+\
+\
+\
+screenshot '6c - Remove a tag 2.png'\
+---------------------------------------------------------\
+\
+the Delete button and the "forbidden" icon are standard : we use them as they are.\
+\
+\
+screenshot '8b - no Playlist in the device.png'\
+---------------------------------------------------------\
+\
+a special screen to warn the user : no playlists have been found in his device. The text is localized of course, but the image should be a strong indication, like the temporarily one we used in the screenshot.\
+\
+\
+screenshot '9 - Radio Wall 1.png'\
+---------------------------------------------------------\
+\
+This screen is going to be modified a bit, comparing to the provided screenshot.\
+It will have a standard toolbar on the top, like the other screens.\
+\
+1) - The "back button" (white arrow) that is currently on the top left of the screen, will be replaced by a toolbar item, like the one you can see on the top left of the screenshot '16 - Facebook toolbar item.png'. We need this item in the two usual sizes. The graphic must not contain the item's border or background, simply the icon that is inside, as a PNG transparent file. \
+\
+2) - another toolbar item for the "put this in my favorites"-function, with the star icon. Same technical constraints : no border, no background, a simple white-on-transparent-png icon. \
+2 versions : an empty star, and a full one.\
+\
+3) - another toolbar item for the "play - stop audio"-function. Same technical constraints.\
+\
+4) - another toolbar item for the "switch audio quality : standard quality / high quality" - function. Not included in the current screenshot.\
+\
+5) - 4 simple graphic assets :\
+    - the number of subscribers (the small heart in the screenshot). Should probably be a star to make it related to the "put in my favorites"-function\
+    - the number of listeners (the small head-set in the current screenshot)\
+    - the number of users that like the current playing tune (the thumb "up")\
+    - the number of users that dislike the current playing tune (the thumb "down")\
+\
+The rest of the graphic assets we may need for this screen will depends on the look you will create. On the current screnshot, I used the following assets :\
+- a transparent mask for the user's photo\
+- a gray background for the tracks notifications (for instance the "14:55   >     Music Is The \'85\'85 "). It can be completely modified depending on your design.\
+\
+The white background of the texts is not a graphic file : it's coded in the software to be dynamically adapted to the height of the text.\
+\
+\
+screenshot '9b - Radio Wall 2 (interaction).png'\
+---------------------------------------------------------------\
+\
+On this screenshot, 5 buttons appear : \
+- a button to "like" the current audio track\
+- a button to "dislike" the current audio track\
+- a button to "add the current track to my radio"\
+- a button to "buy this track on iTunes"\
+- a button to "share on Facebook"\
+\
+I'm not sure about having bordered buttons, like on the screenshot. I think it would be better to have simple non-bordered icons, like the ones we use in the toolbar, like the ones you can see, for instance, in the toolbar of '16 - Facebook toolbar item.png'.\
+If you have a different idea, just go for it!\
+\
+the current icons for "like", "dislike"  and "share on Facebook" are ok, but you can change them if you like.\
+The others ones, "add" and "buy" NEED to have a more explicit design.\
+\
+\
+\
+screenshot '10 - Edit radio playlist.png'\
+---------------------------------------------------------------\
+\
+nothing special to say about this screen. We should be able to have it dressed, with what will be done for the other screens.\
+\
+\
+\
+screenshot '11 - My radio page.png'\
+---------------------------------------------------------------\
+\
+Another very important screen. It gives access to the settings function and other things. \
+\
+IT'S GOING TO CHANGE : \
+- it's going to be the "MENU" screen I told you about in the overview, above.\
+- no more tab bar and tabs in the new version to come\
+- everything is going to be restricted in a simple list of functions, like the one in the screenshot '18 - Facebook menu example.png'\
+\
+WHAT WE NEED:\
+\
+** a global look the menu screen, we won't use the standard white cells\
+\
+** a set of icons for the menu functions. Here;s the list of functions :\
+\
+- "My Radio" : access to the owner's radio Wall\
+\
+- "Friends Radios" : access to the list of  user's friends' radios\
+- "Favorites Radios" : access to the list of radio that the user may have tagged as "favorite"\
+- "Radio Selection" : access to the list of preselected radios\
+- "Search for Radio" : access to a search engine\
+\
+"Me" Section:\
+- "my Statistics" : access to a screen to display the owner's radio statistics \
+- "my Playlists" : access to the management of the user's audio playlists\
+- "my Settings" : access to the configuration of the owner's radio\
+\
+"others" section:\
+- "Terms of Use" : the legal conditions of use\
+- "Disconnect" : logout the application\
+\
+\
+IN THE CURRENT SCREENSHOT:\
+we have a set of big classic icons, since it's displayed in a standard iPhone's list view.\
+But, in the new version, the icons size and look should be adapted to fit the new design.\
+\
+\
+\
+screenshot '12 - Stats page 1.png'\
+---------------------------------------------------------------\
+\
+the graphic charts are dynamically created in the software. \
+But the colors, the background colors, and the global look of the screen can be entirely redesigned. \
+\
+\
+screenshot '15 - Selection tab.png'\
+---------------------------------------------------------------\
+\
+a example of a list of radios. The two previous screenshots (13 and 14) are the same.\
+As for the MENU screen, the tab bar and the tabs are about to be removed. That's a gain of space for the list.\
+What we need here is a global design for the list, displaying the same information : the user's photo, the radio's name, etc. \
+Each cell must have a "selected" state.\
+}
